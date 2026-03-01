@@ -1,0 +1,314 @@
+/* font-family: "Open Sans", sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+h1,
+h2 {
+  line-height: 1.2;
+  font-weight: 300;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*------------------------------------------------*/
+
+/* Header */
+
+/* #home (.main-header) */
+
+.main-header {
+  /* background: linear-gradient(rgba(0, 0, 0, 0.6)), url("../images/bg-1.jpeg"); */
+  background-image: url("../images/bg-1.jpeg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: var(--white);
+  position: relative;
+}
+
+.main-header.blog {
+  height: 50vh;
+  background-image: url("../images/bg-2.jpeg");
+}
+
+/* linear-gradient alternatif (mat kapak) */
+.main-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* main-header'daki tüm elemanlar mat kapak üzerine çıkarılır. */
+.main-header * {
+  z-index: 1;
+}
+
+/* .navbar */
+
+.main-header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--dark);
+  opacity: 0.8;
+  color: var(--white);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 7rem;
+  padding: 0 3rem;
+}
+
+.main-header .navbar h1 {
+  font-size: 3rem;
+}
+
+.main-header .navbar a {
+  color: var(--white);
+  padding: 1rem 2rem;
+  margin: 0 0.5rem;
+}
+
+.main-header .navbar a:hover {
+  border-bottom: 0.2rem solid var(--warning);
+}
+
+.main-header .navbar ul {
+  display: flex;
+}
+
+.main-header .navbar .brand {
+  font-weight: 400;
+}
+
+/* .content */
+
+.main-header .content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* color: var(--white); */
+}
+
+.main-header .content h1 {
+  font-size: 5.5rem;
+}
+
+.main-header .content p {
+  font-size: 2.3rem;
+  margin: 2rem 0 3rem;
+  max-width: 60rem;
+}
+
+/*------------------------------------------------*/
+
+/* Main */
+
+/* #services (.icons) */
+
+.icons {
+  padding: 3rem;
+}
+
+.icons i {
+  color: var(--white);
+  background-color: var(--primary);
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+}
+
+.icons h3 {
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+/*------------------------------------------------*/
+
+/* #about */
+
+.about {
+  color: var(--white);
+}
+
+.about h2 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.about p {
+  margin: 2rem 0;
+}
+
+/*------------------------------------------------*/
+
+/* .gallery */
+
+.gallery img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/*------------------------------------------------*/
+
+/* .rooms */
+
+.card {
+  color: var(--white);
+  font-weight: 700;
+}
+
+.card .card-body {
+  padding: 2rem;
+}
+
+/*------------------------------------------------*/
+
+/* .teams */
+
+.teams img {
+  border-radius: 50%;
+}
+
+.teams img:hover {
+  opacity: 0.7;
+}
+
+/*------------------------------------------------*/
+
+/* .contact */
+
+.contact h2 {
+  font-size: 4rem;
+}
+
+.contact-form {
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form input {
+  width: 100%;
+  padding: 0.5rem;
+  height: 4rem;
+  border: 1px solid #f5f5f5;
+}
+
+.contact-form .form-control {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form button {
+  margin-top: 2rem;
+}
+
+/*------------------------------------------------*/
+
+/* .footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20rem;
+}
+
+.footer .social a {
+  color: var(--danger);
+  margin-right: 1rem;
+}
+
+.footer .social a:hover {
+  opacity: 0.7;
+}
+
+.footer > div > p > a {
+  color: var(--info);
+}
+
+/*------------------------------------------------*/
+
+/* articles */
+
+.articles {
+  padding: 3rem 5rem;
+}
+
+.article {
+  color: var(--white);
+  margin-top: 1.5rem;
+}
+
+/* Responsive Design */
+/*------------------------------------------------*/
+
+@media (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+
+  .main-header .navbar {
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+  }
+
+  .main-header .navbar a {
+    padding: 10px;
+    margin: 0 3px;
+  }
+
+  .teams img {
+    width: 70%;
+  }
+}
