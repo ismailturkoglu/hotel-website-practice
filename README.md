@@ -1,17 +1,17 @@
-# 🏨 Hotel Website
+# Hotel Website
 
 Modern ve responsive bir otel tanıtım web sitesi projesidir.  
 HTML ve CSS kullanılarak geliştirilmiştir.
 
-> ⚠️ Bu proje **eğitim amaçlı** Udemy'den takip edilen
->  [Komple Web Developer Kursu](https://www.udemy.com/course/komple-web-developer-kursu/)
+> Bu proje **eğitim amaçlı** Udemy'den takip edilen
+> [Komple Web Developer Kursu](https://www.udemy.com/course/komple-web-developer-kursu/)
 > içeriği üzerinden oluşturulmuştur. Telif haklarına saygı gösterilmiştir.
 
-## 🚀 Live Demo
+## Live Demo
 
 🔗 https://ismailturkoglu.github.io/hotel-website/
 
-## 📌 Proje Hakkında
+## Proje Hakkında
 
 Bu proje:
 
@@ -27,7 +27,7 @@ Bu proje:
 - Flexbox
 - Responsive Design
 
-## 📂 Proje Yapısı
+## Proje Yapısı
 
 
 hotel-website/
@@ -40,11 +40,11 @@ hotel-website/
 └── README.md
 
 
-## 📈 Geliştirme Amacı
+## Geliştirme Amacı
 
 Bu proje frontend geliştirme pratiği yapmak ve GitHub üzerinden canlı deployment sürecini öğrenmek amacıyla oluşturulmuştur.
 
-## 👤 Developer
+## Developer
 
 İsmail Türkoğlu  
 GitHub: https://github.com/ismailturkoglu
