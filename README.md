@@ -9,7 +9,7 @@ HTML ve CSS kullanılarak geliştirilmiştir.
 
 ## Live Demo
 
-🔗 https://ismailturkoglu.github.io/hotel-website/
+🔗 https://ismailturkoglu.github.io/Hotel-Website-Practice/
 
 ## Proje Hakkında
 
