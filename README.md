@@ -1,4 +1,4 @@
-# Hotel Website
+# Hotel Website - Practice Project
 
 Modern ve responsive bir otel tanıtım web sitesi projesidir.  
 HTML ve CSS kullanılarak geliştirilmiştir.
